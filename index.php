@@ -47,3 +47,4 @@ if( array_key_exists( 'f', $_GET ) )
 
 // Execute
 $the_controller->$function( $param );
+
