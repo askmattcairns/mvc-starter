@@ -30,6 +30,7 @@ $controller_name = ucfirst($controller);
 $the_controller = new $controller();
 
 // Get Function
+$function = $default_function;
 if( array_key_exists( 'f', $_GET ) )
 {
   $function = $_GET['f'];
